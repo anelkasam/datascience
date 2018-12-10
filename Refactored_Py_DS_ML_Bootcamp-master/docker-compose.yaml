@@ -1,0 +1,10 @@
+version:                "3"
+services:
+  jupyter:
+      build:
+        context: ./
+      volumes:
+        - /Users/anelka/PycharmProjects/Refactored_Py_DS_ML_Bootcamp-master:/notebooks
+      ports:
+        - 8888:8888
+      container_name:   jupyter

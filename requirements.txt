@@ -1,0 +1,7 @@
+nltk
+langdetect
+spark
+keras
+theano
+tensorflow
+xgboost
