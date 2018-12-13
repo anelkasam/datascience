@@ -5,3 +5,9 @@
 .tsv
 dataset/
 preview/
+.gradle/
+*.iml
+*.ipr
+*.iws
+out/
+build/
