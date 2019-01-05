@@ -1,14 +1,10 @@
-FROM jupyter/datascience-notebook
+FROM jupyter/all-spark-notebook
 
 COPY requirements.txt /tmp
 WORKDIR /tmp
 RUN pip install -r requirements.txt
+#RUN apt-get install openjdk-8-jdk-headless -qq
 
 VOLUME /notebooks
 WORKDIR /notebooks
 
-#FROM jupyter/all-spark-notebook
-#ADD . /code
-#WORKDIR /code
-#RUN pip install -r requirements.txt
-#CMD ["jupyter notebook"]
