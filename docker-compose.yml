@@ -6,5 +6,6 @@ services:
       context: ./
     ports:
       - "8888:8888"
+      - "4040:4040"
     volumes:
           - /Users/anelka/PycharmProjects/datascience:/notebooks
