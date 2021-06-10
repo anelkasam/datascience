@@ -4,5 +4,8 @@ This repository is for my practice:
  - kaggle kernels
  - and other
  
- To run docker Jupyter notebook:
- ```docker-compose up```
+ Docker commands:
+ 
+ Rebuild container```docker-compose build```
+ 
+ Run notebook: ```docker-compose up```
