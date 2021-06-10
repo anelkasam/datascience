@@ -1,0 +1,12 @@
+version: "3"
+services:
+
+  jupyter:
+    build:
+      context: ./
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+#          - /Users/anelka/PycharmProjects/datascience:/notebooks
+      - /Users/administrator/datascience/datascience:/notebooks
