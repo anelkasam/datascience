@@ -4,4 +4,11 @@
 .scv
 .tsv
 dataset/
+Datasets/
 preview/
+.gradle/
+*.iml
+*.ipr
+*.iws
+out/
+build/

@@ -1,7 +1,9 @@
 nltk
 langdetect
-spark
+pyspark
 keras
 theano
 tensorflow
 xgboost
+graphviz
+pydot
