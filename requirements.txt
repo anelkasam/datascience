@@ -5,3 +5,5 @@ keras
 theano
 tensorflow
 xgboost
+graphviz
+pydot

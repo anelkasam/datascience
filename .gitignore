@@ -4,6 +4,7 @@
 .scv
 .tsv
 dataset/
+Datasets/
 preview/
 .gradle/
 *.iml
