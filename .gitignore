@@ -3,6 +3,7 @@
 .DS_Store
 .scv
 .tsv
+.idea/
 dataset/
 Datasets/
 preview/
